@@ -14,18 +14,17 @@ console.log(anni);
 var tariffaStandard = kilometri * 0.21;
 console.log(tariffaStandard);
 // tariffa 0-18 anni
-var under18 = ((tariffaStandard - 20) / 100) ;
+var under18 = ((tariffaStandard * 20) / 100) ;
 console.log(under18);
 // // tariffa dopo i 65 anni
-var over65 = ((tariffaStandard - 40) / 100) ;
+var over65 = ((tariffaStandard * 40) / 100) ;
 console.log(over65);
 
 
 // prezzi suddivisi per fasce d'età
 if ((anni >= 18) && (anni <= 65)) {
   console.log(tariffaStandard);
-}
-else if (anni <= 18) {
+} else if (anni <= 18) {
   console.log(under18);
 } else {
     console.log(over65);
