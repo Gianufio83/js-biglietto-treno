@@ -30,15 +30,3 @@ else if (anni <= 18) {
 } else {
     console.log(over65);
   }
-
-// else (anni >= 65) {
-//   .console.log(over65);
-// }
-// if (anni <= 18) {
-//   console.log(under18);
-// } else if (anni >= 18) && (anni <= 65) {
-//   console.log(tariffaStandard);
-// } else (anni > 65) {
-//   console.log(over65);
-// }
-// }
